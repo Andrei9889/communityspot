@@ -1,0 +1,110 @@
+.modal {
+
+  &-dialog {
+    max-width: 100%;
+    margin: 0;
+  }
+
+  &-header {
+    border-bottom: 0;
+    padding: 48px 0 0;
+  }
+
+  &-content {
+    border-radius: 0;
+    border: 0;
+    background-color: #74F2B7;
+    min-height: 100vh;
+  }
+
+  &-backdrop {
+    background-color: #73f2b7;
+  }
+  
+  .mail-form {
+    padding: 100px 0;
+  }
+
+  button {
+    outline: none;
+  }
+
+  .logo{
+    font-size: 32px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    position: relative;
+    display: inline-flex;
+
+    @media (max-width: 414px) {
+      font-size: 26px;
+    }
+    
+    &:before{
+      content: "";
+      background: url('./images/logo-black.svg');
+      display: block;
+      height: 52px;
+      width: 52px;
+      display: inline-block;
+      position: relative;
+      top: -11px;
+    }
+
+    span {
+      padding-left: 10px;
+    }
+  }
+
+  &-close {
+    border: 0;
+    outline: none;
+    background: 0;
+    border-radius: 0;
+    transition: .3s ease;
+    
+    img {
+      width: 25px;
+      height: auto;
+    }
+
+    &:hover {
+      opacity: .1;
+    }
+  }
+  
+}
+
+.cd-overlay-nav {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 0;
+  width: 0;
+  z-index: 999;
+
+  span {
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    backface-visibility: hidden;
+    will-change: transform;
+    transform-origin: 50% 50%;
+    transition: transform,opacity,visibility;
+    transition-duration: 1s,.2s,0s;
+    transition-delay: .2s,.2s,0s;
+    
+    background-color: #74F2B7;
+    transform: scaleX(0) scaleY(0);
+    height: 5000px;
+    width: 5000px;
+    top: -2500px;
+    left: -2500px;
+  }
+
+  &.active {
+    span {
+      transform: scaleX(1) scaleY(1);
+    }
+  }
+}

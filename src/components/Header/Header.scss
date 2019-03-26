@@ -1,0 +1,70 @@
+header{
+  padding-top: 48px;
+  margin-bottom: 129px;
+
+  @media (max-width: 414px) {
+    margin-bottom: 70px;
+  }
+
+  .logo{
+    font-size: 32px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    position: relative;
+    display: inline-flex;
+
+    @media (max-width: 414px) {
+      font-size: 26px;
+    }
+    
+    &:before{
+      content: "";
+      background: url('./images/logo-colour.svg');
+      display: block;
+      height: 52px;
+      width: 52px;
+      display: inline-block;
+      position: relative;
+      top: -11px;
+    }
+
+    span {
+      padding-left: 10px;
+    }
+  }
+  
+  .text{
+    font-size: 18px;
+    letter-spacing: 0.6px;
+
+    @media (max-width: 414px) {
+      font-size: 14px;
+    }
+
+    .link {
+      background: none;
+      border: 0;
+      outline: none;
+      font-weight: 600;
+      position: relative;
+      display: inline-block;
+      color: #202020;
+      cursor: pointer;
+
+      &:hover{
+        text-decoration: none;
+        color: #202020;
+      }
+      &:after{
+        content: "";
+        position: absolute;
+        bottom: 3px;
+        left: 0;
+        width: 100%;
+        display: block;
+        height: 2px;
+        background-color: #74F2B7;
+      }
+    }
+  }
+}

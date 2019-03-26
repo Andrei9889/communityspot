@@ -1,0 +1,98 @@
+{
+  "site_title": "CommunitySpot",
+  "header_menu_label": "Check out our",
+  "header_menu_links": [
+    {
+      "title": "Mission",
+      "type": "anchor",
+      "address": "section1"
+    },
+    {
+      "title": "How it works",
+      "type": "anchor",
+      "address": "section2"
+    },
+    {
+      "title": "Preview your website",
+      "type": "button"
+    }
+  ],
+
+  "section_description_title": {
+    "__html": "Running your<br> community facility<br> online should be simple."
+  },
+  "section_description_subtitle_1": "Save time and money with CommunitySpot",
+  "section_description_subtitle_2": "The ultimate website builder designed to attract more members to your community facility",
+
+  "section_description_btn_text": "Preview your new website",
+  "section_description_images_text_top": "Your logo could go here",
+  "section_description_images_text_bottom": "Your website could look like this",
+
+
+  "section_problem_title": "Technology has fractured our local communities",
+  "section_problem_subtitle": "the problem",
+  "section_problem_text": {
+    "__html": "36% of our day is spent online and we have<br> become disengaged with our local communities"
+  },
+  
+  "section_mission_title": "We want to bring these communities back together",
+  "section_mission_subtitle": "our mission",
+  "section_mission_text": {
+    "__html": "Our mission is to provide better websites to<br> community facilities to help attract more local people"
+  },
+
+  "section_features_title": "Are you a centre manager or facility owner?",
+  "section_features_subtitle": "A CommunitySpot website makes your life easier",
+  
+  "section_features_feature_time_title": "Save time on bookings",
+  "section_features_feature_time_text": "Allow people to easily book rooms, activities and events through your website",
+  
+  "section_features_feature_membership_title": "Increase membership",
+  "section_features_feature_membership_text": "People can sign up as volunteers or regular community members to feel involved",
+  
+  
+  
+  "section_other_features_title": "Plus so much more...",
+  "section_other_features_list": [
+    {
+      "title": "Easy marketing", 
+      "text": "Communicate with members and inform them about new activities"
+    },
+    {
+      "title": "Mobile optimised", 
+      "text": "Designed to work perfectly on all mobile devices and tablets"
+    },
+    {
+      "title": "Understand members better", 
+      "text": "Detailed breakdown of your members to understand their needs better"
+    },
+    {
+      "title": "Easy to use for everyone", 
+      "text": "Accessible websites and designed with the end user in mind"
+    },
+    {
+      "title": "Online in minutes", 
+      "text": "Set up your website in minutes or easily migrate an existing one"
+    },
+    {
+      "title": "REASONABLE PRICING", 
+      "text": "Competitive costs similar to Wix.com and WordPress hosting"
+    }
+  ],
+
+  "section_email_form_title_before": "Preview your new website",
+  "section_email_form_text_before": {
+    "__html": "Enter your email below and a member of our team will be in touch to<br> show you how your new CommunitySpot website could look"
+  },
+  "section_email_form_title_after": "You’re lovely, we’ll be in touch",
+  "section_email_form_text_after": {
+    "__html": "Know someone else who may be interested?<br> Share this website with them by entering their email below"
+  },
+
+  "mail_form_bottom_content_before": {
+    "__html": "Don’t think you need a new website? Think again."
+  },
+  "mail_form_bottom_content_after": {
+    "__html": "Your data is secure with us and we’ll never pass on emails to anyone else"
+  }
+}
